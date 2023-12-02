@@ -1,0 +1,143 @@
+.tab-3-welcome-home {
+    position: relative;
+    top: 60px
+}
+
+.tab-1-welcome-home {
+    position: relative;
+    top: -170px
+}
+
+.tab-1-welcome-home-all {
+    background-color: unset;
+    cursor: pointer;
+    position: relative;
+    top: 220px;
+    right: 0px;
+}
+
+.tab-1-Contract {
+    background-color: unset;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    right: 50px;
+}
+
+.tab-3-Weapons {
+    position: relative;
+    top: 50px;
+    right: 70px;
+    ;
+    background-color: unset;
+    cursor: pointer;
+}
+
+.tab-4-webapplication {
+    position: relative;
+    top: 50px;
+    right: 90px;
+    ;
+    background-color: unset;
+    cursor: pointer;
+}
+
+.text-sm-font {
+    font-size: 14px
+}
+
+.tab-1-welcome-home-one {
+    background-color: unset;
+    cursor: pointer;
+    position: relative;
+    top: 70px
+}
+
+.tab-2-welcome-home-one {
+    background-color: unset;
+    cursor: pointer;
+    position: relative;
+    right: 15px;
+    top: 60px
+}
+
+.tab-3-welcome-home-one {
+    background-color: unset;
+    cursor: pointer;
+    position: relative;
+    right: 500px;
+    top: -155px
+}
+
+.welcome-home-tab-one {
+    position: relative;
+    top: 20px
+}
+
+.welcome-home-tab-seven-svg {
+    position: relative;
+    top: -100px;
+    right: 43px;
+
+}
+.welcome-home-supervision{
+    font-size: 14px;position: relative;top:-10px
+}
+.welcome-home-tab-seven{
+    position: relative;top:-140px
+}
+@media(max-width:1199px){
+    .tab-3-welcome-home-one{
+        position: relative;
+        right:30px;
+        top:60px
+    }
+    .welcome-home-tab-seven{
+        position: relative;top:40px
+    }
+   
+}
+@media(max-width:991px){
+    .tab-1-welcome-home-all{
+        position: relative;
+        top:220px
+    }
+    .supervision{
+        position: relative !important;
+        top:-160px !important
+    }
+    .contract{
+        position: relative !important;
+        top:20px !important
+    }
+    .web-application{
+        position: relative !important;
+        top:20px !important
+    }
+    .access{
+        position: relative !important;
+        top:0px !important
+    }
+    .collection{
+        position: relative !important;
+        top:0px !important
+    }
+    .legal{
+        position: relative !important;
+        top:20px !important
+    }
+    .welcome-home-tab-seven{
+        position: relative ;
+        top:70px
+    }
+    .welcome-home-tab-one{
+        position: relative;
+        top:50px 
+    }
+}
+
+.img-welcome-home:hover{
+    background-image: url("/cart/hover.jpg");
+    height: 140px;
+ 
+}

@@ -1,0 +1,187 @@
+.height-services{
+
+    background-image: url('/fanam/2.jpg');height: 700px;
+ 
+    
+  
+  }
+  .card-five:hover {
+    box-shadow: none;
+    border: 1px solid $light-blue;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  
+  }
+  .card-six:hover {
+    box-shadow: none;
+    border: 1px solid $light-blue;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  
+  }
+  .card-seven:hover {
+    box-shadow: none;
+    border: 1px solid $light-blue;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  
+  }
+  .card-eight:hover {
+    box-shadow: none;
+    border: 1px solid $light-blue;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  
+  }
+  .form-all-contact{
+    position: relative;
+    top:-20px
+  }
+  .button-more-frontend{
+    margin-top:-25px
+  }
+  .readmore-change{
+    position: relative;
+    top: 105px ;
+  }
+  .readmore-change-finish{
+    position: relative;
+
+    top:-5px
+  }
+  .font-change-three{
+    margin-top:20px
+  }
+.display-change{
+    position: relative;
+    top:100px 
+}
+  .services-you {
+    @include relative-position;
+    font-size: 16px;
+    width: 95px;
+    bottom: 10px;
+    right: 26px;
+  }
+  .project-fanam{
+    position: relative;
+    right:-15px
+  }
+  .services-you-all {
+    @include relative-position;
+    right:3px !important;
+    position: relative;
+    top:-55px;
+    color:$DarkGray !important;
+  }
+.rectangle-all {
+    width: 10px;
+    height: 10px;
+    background-color: #e39717;
+  }
+.card-eight{
+    height: 34rem !important;
+}
+.card-five{
+    width: 47.5rem;
+  
+}
+.card-seven{
+    position: relative;
+    right: 440px;
+    top:-270px;
+    width: 23rem;
+    height: 17rem !important;
+}
+.card-six{
+    position: relative;
+    right: 390px;
+    top:-270px;
+    width: 23rem;
+    height: 17rem !important;
+}
+@media(max-width:1399px){
+.card-seven{
+    right:380px;
+    width: 23.125rem;
+}
+.card-six{
+    right:390px;
+    width: 23.125rem;
+}
+.readmore-change{
+    margin-top: -10px;
+}
+}
+@media(max-width:1199px){
+    .card-five{
+        width: 58.5rem;
+        
+    }
+    .font-change-three{
+        margin-top: -40px;
+    }
+    .readmore-change{
+       position: relative;
+       top:-10px
+      }
+      .font-change-three{
+        margin-top:-20px
+      }
+    .display-change{
+        position: relative;
+        top:10px
+    }
+   
+    .card-eight{
+        height: 22.5rem !important;
+    }
+    .card-seven{
+        position: relative;
+        right: 0;
+        top:0px;
+        width:58.333rem;
+        height: 11.5rem !important;
+       
+    }
+
+    .card-six{
+        position: relative;
+        right: 0;
+        top:0px;
+        width:58.333rem;
+        height: 11.5rem !important;
+       
+    }
+    
+}
+@media(max-width:991px){
+    .card-five{
+        width: 43.5rem;
+    }
+    .card-eight{
+        height: 24.375rem !important;
+    }
+    .card-seven{
+        width: 43.4rem;
+        height: 13.438rem !important;
+    }
+    .card-six{
+        width: 43.4rem;
+        height: 13.438rem !important;
+    }
+}
+@media(max-width:767px){
+    .card-five{
+        width: 32.3rem;
+    }
+    .card-seven{
+        width: 32.4rem;
+        
+    }
+    .card-six{
+        width: 32.4rem;
+      
+    }
+    
+}

@@ -1,0 +1,33 @@
+
+[class^="number-slide"],
+[class*=" number-slide"] {
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 500;
+  height: 500px;
+  max-height: 100vh
+}
+
+.number-slide1 {
+ background: unset;
+}
+
+.number-slide2 {
+  background: unset;
+}
+
+.number-slide3 {
+  background: unset
+}
+
+.number-slide4 {
+  background:unset
+}
+
+.number-slide5 {
+  background: unset
+}

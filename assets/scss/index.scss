@@ -1,0 +1,574 @@
+@import "./keenSlider.scss";
+@import "./mixins/size";
+@import "./mixins/spacer";
+@import "./varibles/color";
+@import "./service_block";
+@import "./scrollbar";
+@import "./services";
+@import "./project-block-nine";
+@import "./softwareSystems";
+
+.title-one{
+    text-align: center; 
+}
+.title-two{
+    position: relative;
+    right: 20px;
+    width: 220px;
+}
+.swipper-change-navigation {
+
+    .swiper-button-prev:after,
+    .swiper-button-next:after {
+      color: $light-blue;
+      font-size: 20px
+    }
+  }
+.carousel-two{
+    display: none;
+}
+.underline-none{
+    text-decoration: none;
+}
+.rectangle-asly {
+    @include rectangle-asly;
+  }
+  .art-nine{
+    position: relative;top:-230px
+  }
+ .img-fanam{
+    
+    position: relative;margin-right: 170px;}
+  .rectangle {
+    width: 10px;
+    height: 10px;
+    background-color: #e39717;
+    margin-top: 2px;
+  }
+  .about-fanam {
+    @include relative-position;
+   
+    color: $light-blue;
+    right: 2px !important
+  }
+  .about-padding{
+    background-image: url('/fanam/1.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  
+  }
+  .recent-project {
+    @include relative-position;
+    top: -5px;
+    font-size: 16px;
+    right:8px;
+    color:$DarkGray
+  }
+.title-one-carousel {
+    text-align: center;
+    position: relative;
+    top:20px
+}
+.fanam-khas{
+    position: relative;
+    top:5px
+}
+.title-three-carousel{
+    position: relative;
+    top:140px
+}
+.title-two-carousel {
+text-align: center;
+position: relative;
+    top:120px;
+}
+    .change-dropdown{
+        position: relative;right:100px;top:-2px;
+        .dropdown-menu {
+            min-width: 0px;
+          }
+          .dropdown-menu.show{
+            text-align: right;
+            }
+    }
+
+
+.banner {
+    background-image: url("/header.png");
+    height: auto;
+}
+
+.tel-img {
+    margin-right: 240px;
+}
+
+.navbar-fanam {
+    width: 1200px;
+    border-radius: 0px 0 25px 25px;
+    position: relative;
+    top: 60px;
+    z-index: 100;
+    right: -5px;
+}
+
+.direction {
+    direction: rtl;
+}
+
+.navbar-change-one {
+    display: none;
+
+}
+.keen-slider {
+    position: relative;
+    top: -120px;
+}
+
+.font-style-none {
+    font-style: unset;
+}
+.navbar-change-one {
+    position: relative;
+    z-index: 100;
+    top:100px
+}
+
+.left-content {
+    position: relative;
+    left: 20px;
+}
+
+.dropdown-menu.show {
+    text-align: right;
+}
+.change-mohtava-about{
+    width: 480px;
+  position: relative;
+
+}
+.thme-btn {
+    text-decoration: none;
+
+}
+.a{
+    text-decoration: none }
+
+    .change-mohtava-about-three{
+        display: none;
+    }
+    .img-height-fanam{
+        height: 130px;
+        position: relative;
+        top:-60px
+    }
+    .form-name:focus{
+        background-color: $light-blue !important;
+      }
+      .button-more{
+        position: relative !important;
+        
+        color: #fff;
+        position: relative;
+        right:290px;
+        top:20px
+       
+        
+      }
+      .button-change-send{
+        position: relative !important;font-size: 16px !important
+        ;text-align: center !important;top: 3px !important;right: 3px !important;
+      }
+      .form-mobile{
+        border-radius: 10px !important;right:10px !important;
+      }
+      .btn-style-one{
+        font-size: 16px;
+        background-color:$light-blue ;
+        position: relative;
+        right:35px;
+        color: #fff !important;
+        text-decoration: none;
+        
+      }
+      .tel-all{
+        position: relative !important;
+        display: flex;
+      
+      }
+      .address-icon{
+        position: relative;
+        right:-133px;
+        top:1px;font-size: 14px;color: #000;
+      }
+      .img-address-icon{
+        position: relative;
+         right:200px;top:25px
+      }
+      .adress-icon{
+        position: relative;
+        right:-95px
+      }
+      .tel-text{
+        position: relative;
+        right:14px !important;top:18px !important
+      }
+      .tel-all-img{
+        position: relative;right:130px;top:20px ;height:20px
+      }
+      .list-style-five {
+        @include relative-position;
+        right: 330px !important;
+        top:50px;
+       
+      }
+      .email-all{
+        position: relative !important;
+        top:-15px !important;
+        right:-40px !important
+      }
+      .readmore-change-more{
+        color: $light-blue !important;
+      }
+      .btn-style-one:hover {
+        background-color: $dark-orange !important;
+        cursor: pointer;
+        color: $white;
+      }
+       .form-name:hover{
+      
+         border:1px solid  #fff !important;
+       }
+       .form-name{
+        width:420px !important;
+        background-color: $light-blue-input-one !important;
+        position: relative;
+        top:10px
+      }
+      .input-name{
+        border-radius: 10px !important;height: 45px !important;position: relative !important;right:35px !important
+      }
+      .height-change{
+        height: 50px;
+      }
+      .our-services{
+        margin-top:-160px
+      }
+      @media(max-width:1273px){
+        .time-all{
+            position: relative;
+            right:100px
+        }
+        .left-content{
+            position: relative !important;
+            right:60px !important
+        }
+      }
+@media (max-width: 1199px) {
+    .service-block-five{
+        width: 900px
+    }
+    .welcome-home-two{
+        position: relative !important;
+        right:-20px !important
+      }
+      .welcome-home-three{
+        position: relative;
+        right:-20px !important
+      }
+      .height-change{
+        height: 150px;
+      }
+      
+    .contact-form-change{
+        position: relative;
+        top:-40px;
+        display: flex;
+        
+    }
+    .height-services{
+        height: 1200px;
+    }
+    #list-style-common{
+        position: relative !important;
+        margin-right: 400px ;
+    }
+  .navbar-change{
+    position: relative;
+    right:-150px !important;
+    width: 1280px;
+    top:20px
+  }
+   
+    
+    .img-height-fanam{
+        height: 40px;
+    }
+
+    .change-mohtava-about-three{
+        display: block;
+        position: relative;
+        top:-50px;width: 300px;
+    }
+    .swipper-change-navigation{
+        display: none;
+    }
+    .img-fanam{
+        margin-right: 0px;
+    }
+.card-one-seven{
+    margin-top: 0;
+}
+    .navbar-fanam {
+        width: 65rem;
+    }
+     .img-rectangle-top{
+        margin-top: 0;
+     }
+.carousel-two{
+    display: block;
+}
+}
+
+@media(max-width:1200px) {
+    .left-content{
+        position: relative !important;
+        right: 25px !important;
+    }
+   .time-all{
+    position: relative !important;
+    right: 68px !important;
+   }
+   .change-location{
+    position: relative !important;
+    right: 60px !important;
+   }
+    .navbar-fanam {
+        position: relative;
+        top: 40px
+    }
+    .navbar-change{
+        position: relative;
+        right:-70px;
+        width: 1280px;
+        top:20px
+      }
+}
+@media(max-width:1300px) {
+
+    .navbar-fanam {
+        display: none;
+    }
+
+}
+@media(max-width:1300px) {
+
+    .navbar-fanam {
+        display: none;
+    }
+
+}
+
+@media(max-width:1157px) {
+    .navbar-change {
+        display: none;
+    }
+
+}
+
+@media(max-width:1157px) {
+    .navbar-change-one {
+        display: block;
+        position: relative !important;
+        top: 75px !important;
+        z-index: 1000;
+    
+    }
+
+
+}
+.home-link{
+    background-color: #fdc236;
+}
+.home-link:hover{
+    background-color: #000;
+}
+.more-know{
+    position: relative;right:-260px;top:20px
+}
+.change-location{
+    position: relative;
+    right: 40px;
+}
+@media(max-width:1301px) {
+    .navbar-fanam {
+        width: 73rem;
+    }
+}
+.time-all{
+    position: relative;left:5px   
+}
+.services-img-three{
+    position: relative;
+    top:-20px
+}
+@media(max-width:1399px){
+    .change-location{
+        position: relative;
+        right: 140px;
+    }
+    .welcome-home-two{
+        position: relative !important;
+        right:10px !important
+      }
+      .welcome-home-three{
+        position: relative;
+        right:20px !important
+      }
+    .left-content{
+        position: relative;
+        right:90px
+    }
+    .time-all{
+        position: relative;
+        left:-130px;
+    }
+    .button-more{
+        position: relative;
+        right: 150px;
+    }
+    .more-know{
+        position: relative;
+        top:30px
+    }
+   #list-style-common{
+    position: relative !important;
+  margin-right: -130px !important;
+   }
+    .address-icon{
+        width: 350px;
+    }
+    .change-mohtava-about{
+        display: none;
+    }
+    .change-mohtava-about-three{
+        display: block;
+        width:300px
+     
+    }
+   
+}
+@media(max-width:1269px){
+.address-icon{
+    width: 400px;
+}
+}
+.welcome-home-two{
+    position: relative;right:-50px
+}
+.welcome-home-three{
+    position: relative;right:-90px
+}
+@media(max-width:767px){
+    .welcome-home-two{
+        right: 0;
+    }
+    .welcome-home-three{
+        right:0
+    }
+
+    .change-mohtava-about-three{
+        width: 200px;
+    }
+    .height-services{
+        height: 1250px;
+    }
+    .service-block-five{
+        width: 500px !important;
+    }
+    .button-more{
+        position: relative;
+        right:20px
+    }
+
+    .form-name{
+        width: 150px !important;
+        
+    }
+    .tel-text{
+        width: 400px;
+    }
+    .more-know{
+        position: relative;
+        top:-40px !important;
+        right:200px
+    }
+    #list-style-common{
+position: relative;
+right:40px !important
+    }
+}
+.img-height-fanam{
+    height: 130px;
+}
+@media(max-width:991px){
+    .service-block-five{
+        width:700px
+    }
+    .welcome-home-two{
+        right: 0;
+    }
+    .welcome-home-three{
+        right:0
+    }
+
+    .more-know{
+        top:100px;
+        position: relative;
+        right:-10px
+    }
+    .about-fanam{
+        width: 400px;
+    }
+    .img-height-fanam{
+        height: 70px ;
+    }
+    .form-all-contact{
+        position: relative;
+        right:200px
+    }
+    .button-more{
+        position: relative;
+        margin-right:-50px
+    }
+    #list-style-common{
+    position: relative;
+    
+    }
+}
+@media(max-width:1180px){
+    .navbar-change{
+        width: 900px;right:0px !important
+    }
+}
+@media (max-width:920px) {
+    .navbar-change-one{
+        position: relative !important;
+        top:73px !important
+    }
+}
+.p-tieredmenu-root-list {
+    padding: 10px;
+  
+  }
+  .p-menuitem-link{
+    text-decoration: none;
+    color: #000;
+    font-family: "IRANSans";
+    font-size: 14px;
+  }
+@media (max-width:810px) {
+    .navbar-change-one{
+        position: relative !important;
+        top:73px !important
+    }
+}
