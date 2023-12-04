@@ -48,7 +48,7 @@ export default defineNuxtConfig({
 
 
   ],
-  ssr: true,
+  ssr: false,
   build: {
     transpile: ["primevue"]
   },
