@@ -12,14 +12,14 @@
                 <div style="font-size: 12px" class="ml-5 iran-sans">021-64374068</div>
                 <img style="height: 20px" src="./tel.png" alt="" />
               </div>
-              <div class="mt-2">
+              <!-- <div class="mt-2">
                 <div style="margin-right: 30px;" class="d-flex ">
                   <div style="font-size: 12px;position: relative;left:10px" class=" iran-sans">
                     تهران-م انقلاب،خ آزادی جمال زاده جنوبی،نبش خ دانشورپ122
                   </div>
                   <img style="height: 20px" src="./point.png" alt="" />
                 </div>
-              </div>
+              </div> -->
               <div class="mt-2">
               
                   <div style="margin-right: 200px;" class="d-flex ">
