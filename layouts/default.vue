@@ -1,14 +1,14 @@
 <template>
-  
+
     <div class="page-wrapper">
-      <Header />
-      <Headerinfo />
-      <navbar />
+       <Header /> 
+       <Headerinfo /> 
+        <navbar />  
       <NuxtPage/>
       
-   
+ 
     </div>
-    <Footer />
+    <Footer /> 
        <!-- <nuxt-link
         @click="scrollToTop"
         style="width: 50px; height: 40px"
@@ -16,6 +16,8 @@
       >
         <span class="fa fa-angle-up"></span>
       </nuxt-link> -->
+  
+   
 </template>
 
 <script setup >

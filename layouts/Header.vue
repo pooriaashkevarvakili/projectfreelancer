@@ -1,5 +1,5 @@
 <template>
-  <div class="banner">
+  <div class="banner ">
     <div class="container">
       <div class="row">
         <div  class="col-md-7 col-lg-7 col-sm-12 mt-2 col-xs-12">

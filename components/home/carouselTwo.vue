@@ -7,7 +7,7 @@
       <swiper-slide v-for="item in project" :key="item.id" class="slide">
         <div class="projects-block-nine">
           <div class="inner-box">
-            <img :src="item.img" alt="" />
+            <img class="img-carousel" :src="item.img" alt="" />
             <div class="box-content box-content-padding">
               <ul class="title-matn" style="">
                 <li class="title-one-carousel text-white">

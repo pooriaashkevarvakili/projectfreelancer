@@ -113,9 +113,13 @@
   }
   @media(max-width:640px){
     .projects-block-nine .inner-box .box-content{
-      width: 330px;
-      height: 330px;
+      width:80% !important;
+      height: 100% !important;
+      
 
+    }
+    .img-carousel{
+      width: 80%  !important;
     }
 .title-two-carousel{
   text-align: center;

@@ -1,6 +1,6 @@
 <template>
-  <div class="page-wrapper">
-    <slider/>
+  <div class="">
+     <slider/>
     <welcome-home/>
     <services/>
     <project/>

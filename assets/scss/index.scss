@@ -96,6 +96,7 @@ position: relative;
 .banner {
     background-image: url("/header.png");
     height: auto;
+    // width: 100% !important;
 }
 
 .tel-img {
@@ -601,6 +602,8 @@ right:40px !important
     }
 
     .main-footer{
-        width: 640px;
+        width: 100%;
     }
+
+
 }
