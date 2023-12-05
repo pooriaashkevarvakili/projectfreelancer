@@ -572,11 +572,20 @@ right:40px !important
         top:73px !important
     }
 }
+.about-footer-matn{
+    display: none;
+}
 @media(max-width:640px){
     .service-block-five{
         width: 300px !important;
     }
     .about-us{
         display: none;
+    }
+    .navbar-change-one{
+        width: 300px !important;
+    }
+    .about-footer-matn{
+        display: block;
     }
 }
