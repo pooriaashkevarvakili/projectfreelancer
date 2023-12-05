@@ -111,3 +111,10 @@
     background: $white;
     color: $black;
   }
+  @media(max-width:640px){
+    .projects-block-nine .inner-box .box-content{
+      width: 330px;
+      height: 330px;
+
+    }
+  }
