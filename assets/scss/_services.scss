@@ -188,15 +188,22 @@
 @media(max-width:640px){
   .card-eight{
     width: 300px;
+    height: 450px !important ;
   }
   .card-five{
     width: 300px;
-
+    height: 500px ;
   }
   .card-six{
     width: 300px;
+    height: 300px !important;
   }
   .card-seven{
-    width:300px
+    width:300px;
+    height: 300px !important ;
   }
+  .our-services{
+    height: 1500px !important;
+}
+
 }

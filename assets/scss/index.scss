@@ -381,7 +381,7 @@ position: relative;
         position: relative !important;
         top: 75px !important;
         z-index: 1000;
-    
+         width: 400px;
     }
 
 
@@ -591,4 +591,11 @@ right:40px !important
     .about-footer-matn-one{
         display: none;
     }
+    .navbar-change-one{
+        width: 320px !important ;
+    }
+    .about-footer-matn{
+        width: 400px !important;
+    }
+    
 }

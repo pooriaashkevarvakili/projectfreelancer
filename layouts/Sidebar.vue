@@ -1,7 +1,7 @@
 <template>
   <div
     style="border-radius: 10px 0 25px; margin-top: 10px"
-    class="navbar-change-one w-75 bg-dark p-3"
+    class="navbar-change-one  bg-dark p-3"
   >
     <div>
       <Sidebar v-model:visible="visible">
