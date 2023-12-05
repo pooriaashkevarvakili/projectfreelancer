@@ -31,3 +31,10 @@
 .number-slide5 {
   background: unset
 }
+@media(max-width:640px){
+  .keen-slider{
+    width: 400px !important;
+    position: relative;
+    right:80px !important
+  }
+}
